@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Luxe Studios | Art & Wellness</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #fdf6f0 0%, #f9e9d9 100%);
+        }
+        .gold-accent {
+            color: #b79b6b;
+        }
+        .gold-border {
+            border-color: #b79b6b;
+        }
+        .gold-bg {
+            background-color: #b79b6b;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-8 py-6 max-w-7xl mx-auto">
+        <div>
+            <h1 class="text-2xl font-bold serif">Paper Luxe <span class="gold-accent">Studios</span></h1>
+        </div>
+        <div class="hidden md:flex space-x-8">
+            <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
+            <a href="#" class="text-gray-700 hover:text-gray-900">Gallery</a>
+            <a href="#" class="text-gray-700 hover:text-gray-900">Shop</a>
+            <a href="#" class="text-gray-700 hover:text-gray-900">About Linia</a>
+            <a href="#" class="text-gray-700 hover:text-gray-900">Contact</a>
+        </div>
+        <button class="border-2 border-[#b79b6b] text-[#b79b6b] px-6 py-2 rounded-full hover:bg-[#b79b6b] hover:text-white transition">
+            Shop Now
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20 px-8">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <span class="text-sm uppercase tracking-wider gold-accent font-semibold">Black-Owned • Artist-created</span>
+                <h2 class="text-5xl md:text-6xl font-bold mt-4 mb-6 serif leading-tight">
+                    Art That <br>Nurtures the <span class="gold-accent">Soul</span>
+                </h2>
+                <p class="text-gray-600 text-lg mb-8 max-w-lg">
+                    Discover adult coloring books and journals that celebrate Black heritage while providing tools for relaxation and self-expression.
+                </p>
+                <div class="flex space-x-4">
+                    <button class="bg-[#b79b6b] text-white px-8 py-3 rounded-full hover:bg-[#9e8353] transition font-medium">
+                        Explore Collection
+                    </button>
+                    <button class="border border-gray-300 px-8 py-3 rounded-full hover:border-[#b79b6b] hover:text-[#b79b6b] transition font-medium">
+                        Watch Video
+                    </button>
+                </div>
+                <p class="mt-8 text-sm text-gray-500 flex items-center">
+                    <span class="w-10 h-px bg-gray-300 mr-3"></span>
+                    Featured at The Market Place of Georgia, Perimeter Mall
+                </p>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <div class="w-80 h-80 bg-[#f0dac8] rounded-full absolute -top-10 -left-10 -z-10"></div>
+                    <img src="/api/placeholder/400/500" alt="Art Journal Mockup" class="relative z-10 rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="py-16 px-8 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <svg class="w-12 h-12 text-[#b79b6b] mx-auto mb-6 opacity-50" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+            </svg>
+            <p class="text-2xl md:text-3xl serif italic text-gray-700">
+                "Small Business Saturday is about celebrating creativity, community, and the hardworking people behind local businesses."
+            </p>
+            <p class="mt-6 font-semibold">— Linia White</p>
+            <p class="text-gray-500">Founder, Paper Luxe Studios • Columbus College of Art & Design Alumna</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-20 px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-sm uppercase tracking-wider gold-accent font-semibold">Our Collection</span>
+                <h3 class="text-4xl font-bold mt-2 serif">Where Art Meets Wellness</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-64 bg-[#f5e6d3] flex items-center justify-center">
+                        <span class="text-[#b79b6b] text-lg">📔</span>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 serif">Heritage Coloring Book</h4>
+                        <p class="text-gray-600 mb-4">Celebrate Black history and culture through intricate illustrations.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-[#b79b6b]">$24.99</span>
+                            <button class="border border-[#b79b6b] text-[#b79b6b] px-4 py-2 rounded-full hover:bg-[#b79b6b] hover:text-white transition text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-64 bg-[#e8d9c8] flex items-center justify-center">
+                        <span class="text-[#b79b6b] text-lg">📓</span>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 serif">Reflections Journal</h4>
+                        <p class="text-gray-600 mb-4">Guided prompts for self-discovery and mindfulness.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-[#b79b6b]">$19.99</span>
+                            <button class="border border-[#b79b6b] text-[#b79b6b] px-4 py-2 rounded-full hover:bg-[#b79b6b] hover:text-white transition text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-64 bg-[#f2e0d1] flex items-center justify-center">
+                        <span class="text-[#b79b6b] text-lg">🖼️</span>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 serif">Canvas Art Print</h4>
+                        <p class="text-gray-600 mb-4">Limited edition fine art celebrating Black joy.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-[#b79b6b]">$89.99</span>
+                            <button class="border border-[#b79b6b] text-[#b79b6b] px-4 py-2 rounded-full hover:bg-[#b79b6b] hover:text-white transition text-sm">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block border-b-2 border-[#b79b6b] text-[#b79b6b] font-medium pb-1 hover:pb-2 transition-all">
+                    View Full Collection →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="py-16 px-8 bg-white">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <h3 class="text-3xl font-bold serif mb-4">Visit Us In Person</h3>
+                <p class="text-gray-600 mb-6">Experience the art firsthand at our permanent location inside Perimeter Mall.</p>
+                <div class="bg-gray-50 p-6 rounded-lg mb-6">
+                    <p class="font-bold">📍 The Market Place of Georgia</p>
+                    <p class="text-gray-600">Perimeter Mall • Upper Level</p>
+                    <p class="text-gray-600">4400 Ashford Dunwoody Rd, Atlanta, GA 30346</p>
+                </div>
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <span class="w-10 h-10 bg-[#b79b6b] rounded-full flex items-center justify-center text-white mr-3">📞</span>
+                        <span>(404) 555-0123</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="w-10 h-10 bg-[#b79b6b] rounded-full flex items-center justify-center text-white mr-3">📧</span>
+                        <span>hello@paperluxestudios.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 h-64 bg-gray-200 rounded-lg flex items-center justify-center">
+                <span class="text-gray-500">📍 Map Location</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h5 class="text-xl font-bold serif mb-4">Paper Luxe <span class="gold-accent">Studios</span></h5>
+                <p class="text-gray-400 text-sm">Art, culture, and wellness for the modern soul.</p>
+            </div>
+            <div>
+                <h6 class="font-semibold mb-4">Shop</h6>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li>Coloring Books</li>
+                    <li>Journals</li>
+                    <li>Art Prints</li>
+                    <li>Gift Sets</li>
+                </ul>
+            </div>
+            <div>
+                <h6 class="font-semibold mb-4">About</h6>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li>Our Story</li>
+                    <li>Linia White</li>
+                    <li>In The Press</li>
+                    <li>Events</li>
+                </ul>
+            </div>
+            <div>
+                <h6 class="font-semibold mb-4">Connect</h6>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Pinterest</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
+            © 2024 Paper Luxe Studios. All rights reserved. Created with ❤️ in Atlanta.
+        </div>
+    </footer>
+</body>
+</html>
